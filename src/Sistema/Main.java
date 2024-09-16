@@ -158,14 +158,14 @@ public class Main {
 
 
 //Encapsulamento: Os atributos das classes Veiculo, Carro e CarroLuxo são privados e acessados por métodos getters e setters.
-//Herança: Carro e Moto herdam de Veiculo, utilizando os métodos e atributos da classe base.
-//        Polimorfismo: O método calcularDiaria é definido de forma diferente em Carro e Moto, mas pode ser chamado em objetos do tipo Veiculo.
+//Herança: Carro e CarroLuxo herdam de Veiculo, utilizando os métodos e atributos da classe base.
+//Polimorfismo: O método calcularDiaria é definido de forma diferente em Carro e CarroLuxo, mas pode ser chamado em objetos do tipo Veiculo.
 //Sobrecarga: Não aplicamos sobrecarga diretamente, mas o conceito pode ser aplicado se precisarmos de métodos adicionais com o mesmo nome, mas diferentes parâmetros.
 //Interatividade: A classe Main permite ao usuário interagir com o sistema através do console, realizando operações de consulta, aluguel e devolução de veículos.
 
 //Estrutura do Sistema:
 //Classe Base Veiculo: Representa um veículo genérico.
 //Classe Carro: Representa um carro, derivado de Veiculo.
-//Classe Moto: Representa uma moto, derivada de Veiculo.
+//Classe CarroLuxo: Representa um carro de luxo, derivado de Veiculo.
 //Classe SistemaDeAluguel: Gerencia a lista de veículos e realiza operações de aluguel.
 //Classe Main: Interface com o usuário, onde o usuário pode interagir com o sistema.
