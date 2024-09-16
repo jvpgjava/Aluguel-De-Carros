@@ -30,7 +30,7 @@ Alugar Veículo: O usuário fornece a placa do veículo desejado. O sistema veri
 Devolver Veículo: O usuário fornece a placa do veículo a ser devolvido. O sistema marca o veículo como disponível novamente.
 
 # Ambiente de Desenvolvimento:
-Este projeto pode ser desenvolvido em qualquer IDE Java, como: IntelliJ IDEA, Eclipse, NetBeans,  para rodar o projeto, basta importar o código fonte em uma das IDEs mencionadas e executar a classe Main.
+Este projeto pode ser desenvolvido em qualquer IDE Java, como: IntelliJ IDEA, Eclipse, NetBeans,  para rodar o projeto basta importar o código fonte em uma das IDEs mencionadas e executar a classe Main.
 
 # Orientação a Objetos
 O sistema utiliza os seguintes conceitos de orientação a objetos:
