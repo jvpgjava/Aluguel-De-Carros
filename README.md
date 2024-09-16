@@ -1,9 +1,10 @@
 
-#Sistema de Aluguel de Carros
+Sistema de Aluguel de Carros
 Este projeto é um sistema simples para gerenciamento de aluguel de carros. Ele permite que os usuários visualizem, aluguem e devolvam veículos de uma frota, com um foco em oferecer uma interface amigável e funcionalidades básicas.
 
-#Estrutura do Projeto
+Estrutura do Projeto
 O sistema é dividido em várias classes e pacotes, cada uma com uma função específica:
+
 Pacote Sistema
 
 Classe Main: É o ponto de entrada do sistema, onde o usuário interage com o sistema através de um menu em loop. O menu permite listar veículos disponíveis, alugar e devolver veículos.
@@ -31,8 +32,7 @@ Listar Veículos Disponíveis: O método listarVeiculosDisponiveis() do SistemaD
 Alugar Veículo: O usuário fornece a placa do veículo desejado. O sistema verifica se o veículo está disponível e, se estiver, o marca como alugado.
 Devolver Veículo: O usuário fornece a placa do veículo a ser devolvido. O sistema marca o veículo como disponível novamente.
 Utilização
-
-#Ambiente de Desenvolvimento
+Ambiente de Desenvolvimento
 Este projeto pode ser desenvolvido em qualquer IDE Java, como:
 
 IntelliJ IDEA
@@ -40,7 +40,7 @@ Eclipse
 NetBeans
 Para rodar o projeto, basta importar o código fonte em uma das IDEs mencionadas e executar a classe Main.
 
-#Orientação a Objetos
+Orientação a Objetos
 O sistema utiliza os seguintes conceitos de orientação a objetos:
 
 Herança: A classe Carro e a classe CarroLuxo herdam da classe abstrata Veiculo. Isso permite que ambas compartilhem o comportamento comum definido em Veiculo, enquanto adicionam suas próprias características específicas.
@@ -49,4 +49,5 @@ Polimorfismo: O método calcularDiaria() é um exemplo de polimorfismo. Cada cla
 
 Encapsulamento: A classe Veiculo encapsula atributos como placa, modelo, ano e disponibilidade, fornecendo métodos getter e setter para acessar e modificar esses atributos de maneira controlada.
 
+Abstração: A classe Veiculo é abstrata e define um contrato (método calcularDiaria()) que as classes derivadas devem implementar. Isso permite que o código trate diferentes tipos de veículos de maneira uniforme.
 Abstração: A classe Veiculo é abstrata e define um contrato (método calcularDiaria()) que as classes derivadas devem implementar. Isso permite que o código trate diferentes tipos de veículos de maneira uniforme.
